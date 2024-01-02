@@ -1,0 +1,26 @@
+.error-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/Hogwarts-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  text-shadow: 3px 3px 1px black;
+}
+
+.error-wrapper h1 {
+  font-size: 50px;
+}
+
+.error-wrapper p {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.error-wrapper a {
+  color: aliceblue;
+}

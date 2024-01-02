@@ -1,0 +1,34 @@
+header {
+  height: 350px;
+  display: flex;
+  background-image: url("../images/Hogwarts-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header-wrapper {
+  width: 85%;
+
+  margin: 150px auto;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: 3px 3px 1px black;
+}
+
+.footer-wrapper {
+  background-color: #4c3041;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-wrapper li {
+  list-style-type: none;
+}
+
+.footer-wrapper li a {
+  text-decoration: none;
+  color: #cdb4c3;
+  font-size: 20px;
+}

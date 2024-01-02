@@ -1,0 +1,43 @@
+.description-wrapper {
+  background-color: #16404c;
+  height: 450px;
+}
+
+.description-container {
+  width: 85%;
+  margin: auto;
+  padding: 50px 0 50px 0;
+}
+
+.button-handler {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+.button-handler button {
+  padding: 6px 8px;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+.description-text-wrapper {
+  color: #75878c;
+}
+
+.description-text-wrapper h2 {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .description-wrapper {
+    height: 300px;
+  }
+
+  .button-handler {
+    justify-content: flex-start;
+  }
+}

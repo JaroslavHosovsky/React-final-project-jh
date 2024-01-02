@@ -1,0 +1,46 @@
+.spells-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #11263c;
+}
+
+.spells-wrapper li {
+  list-style-type: none;
+}
+
+.spells-wrapper li a {
+  text-decoration: none;
+  color: #49627b;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.input-container input {
+  outline: none;
+  padding: 7px 9px;
+  border-radius: 13px;
+  border: none;
+  background-color: #305780;
+  color: aliceblue;
+}
+
+.input-container h1 {
+  color: #49627b;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+
+.result-spell-container {
+  margin-bottom: 25px;
+  text-align: center;
+  color: #49627b;
+}
