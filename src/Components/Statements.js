@@ -1,11 +1,11 @@
 import "./Statements.css";
 import allStatements from "../dataOfStatements";
-import { useState, useEffect } from "react";
+import { useState, useLayoutEffect } from "react";
 
 const Statements = () => {
   const [randomStatement, setRandomStatement] = useState(null);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const randomIndex = Math.floor(Math.random() * allStatements.length);
     const statement = allStatements[randomIndex];
     setRandomStatement(statement);
