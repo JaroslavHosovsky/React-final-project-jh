@@ -16,12 +16,22 @@
   color: #49627b;
 }
 
+.spells-wrapper li a:hover {
+  text-decoration: underline;
+}
+
 .input-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 25px;
+}
+
+.input-container h1 {
+  color: #49627b;
+  margin-bottom: 25px;
+  font-size: 25px;
 }
 
 .input-container input {
@@ -31,16 +41,23 @@
   border: none;
   background-color: #305780;
   color: aliceblue;
+  margin-bottom: 25px;
 }
 
-.input-container h1 {
-  color: #49627b;
-  margin-bottom: 25px;
-  font-size: 25px;
+.input-container button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #305780;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: serif;
+  color: #102133;
 }
 
 .result-spell-container {
   margin-bottom: 25px;
   text-align: center;
   color: #49627b;
+  height: 75px;
 }
